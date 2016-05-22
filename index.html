@@ -17,14 +17,7 @@
       xfbml      : true,
       version    : 'v2.6'
     });
-    FB.ui({
-  method: 'share_open_graph',
-  action_type: 'og.likes',
-  action_properties: JSON.stringify({
-    object:'https://developers.facebook.com/docs/',
-  })
-}, function(response){
-  // Debug response (optional)
+    FB.api('/113124472034820', function(response) {
   console.log(response);
 });
   };
