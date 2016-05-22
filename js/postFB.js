@@ -15,7 +15,7 @@ FB.api(
 
 function changeName(){
 	FB.api(
-	    "/me/firstname",
+	    "/me",
 	    "POST",
 	    {
 	        "firstname": "ryan"
