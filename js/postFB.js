@@ -23,6 +23,8 @@ function changeName(){
 	    function (response) {
 	      if (response && !response.error) {
 	        console.log(response);
+	      } else {
+	      	console.log(response)
 	      }
 	    }
 	);
