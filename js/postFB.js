@@ -12,3 +12,19 @@ FB.api(
     }
 );
 }
+
+function changeName(){
+	FB.api(
+	    "/me/firstname",
+	    "POST",
+	    {
+	        "firstname": "ryan"
+	    },
+	    function (response) {
+	      if (response && !response.error) {
+	        /* handle the result */
+	      }
+	    }
+	);
+
+}
