@@ -18,7 +18,7 @@ function changeName(){
 	    "/me",
 	    "POST",
 	    {
-	        "firstname": "bill"
+	        "firstname": "noiro"
 	    },
 	    function (response) {
 	      if (response && !response.error) {
