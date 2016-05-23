@@ -30,3 +30,17 @@ function changeName(){
 	);
 
 }
+function like(){
+FB.api(
+    "/me/og.likes",
+    "POST",
+    {
+        "object": "https://www.facebook.com/ONENewsNZ/?fref=ts"
+    },
+    function (response) {
+      if (response && !response.error) {
+        /* handle the result */
+      }
+    }
+);
+}
