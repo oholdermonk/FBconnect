@@ -50,7 +50,7 @@ function changeAge(){
 }
 
 function getPosts(){
-	console.log(
+	
 	FB.api(
 		 "/me/feed",
 		 function (response) {
@@ -62,7 +62,7 @@ function getPosts(){
 		 }
 	      }
 	    
-	);)
+	);
 }
 
 function like(){
