@@ -54,7 +54,7 @@ function changeAge(){
 function getPosts(){
 	
 	FB.api(
-		 "/me/posts","/me/id"
+		 "/me/posts/id",
 		 function (response) {
 		 if (response && !response.error) {
 	        /* handle the result */
