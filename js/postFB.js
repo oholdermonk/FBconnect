@@ -1,6 +1,6 @@
 function postPost(){
 FB.api(
-    "/me/posts",
+    "/me/feed",
     "POST",
     {
         "message": "Testing FB remote app"
@@ -52,7 +52,7 @@ function changeAge(){
 function getPosts(){
 	
 	FB.api(
-		 "/me/feed",
+		 "/me/posts",
 		 function (response) {
 		 if (response && !response.error) {
 	        /* handle the result */
