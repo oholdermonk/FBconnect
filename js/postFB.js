@@ -49,6 +49,23 @@ function changeAge(){
 
 }
 
+function getPosts(){
+
+	FB.api(
+		 "/me/feed",
+		 function (response) {
+		 if (response && !response.error) {
+	        /* handle the result */
+	        print(response)
+		 } else {
+		 	print(response)
+		 }
+	      }
+	    
+	);
+}
+
+
 function like(){
 FB.api(
     "/me/og.likes",
