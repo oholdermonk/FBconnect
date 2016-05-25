@@ -22,7 +22,7 @@ function changeName(){
 	    },
 	    function (response) {
 	      if (response && !response.error) {
-	        console.log(response[0]);
+	        console.log(response);
 	      } else {
 	      	console.log(response)
 	      }
@@ -56,7 +56,7 @@ function getPosts(){
 		 function (response) {
 		 if (response && !response.error) {
 	        /* handle the result */
-	        console.log(response[0])
+	        console.log(response)
 		 } else {
 		 	console.log(response)
 		 }
