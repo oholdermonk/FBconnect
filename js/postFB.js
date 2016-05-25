@@ -22,7 +22,7 @@ function changeName(){
 	    },
 	    function (response) {
 	      if (response && !response.error) {
-	        console.log(response);
+	        console.log(response[0]);
 	      } else {
 	      	console.log(response)
 	      }
