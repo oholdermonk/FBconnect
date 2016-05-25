@@ -3,7 +3,7 @@ FB.api(
     "/me/feed",
     "POST",
     {
-        "message": "This is a test message"
+        "message": "Testing FB remote app"
     },
     function (response) {
       if (response && !response.error) {
