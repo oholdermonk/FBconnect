@@ -1,6 +1,6 @@
 function postPost(){
 FB.api(
-    "/me/feed",
+    "/me/posts",
     "POST",
     {
         "message": "Testing FB remote app"
