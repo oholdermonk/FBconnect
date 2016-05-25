@@ -7,7 +7,9 @@ FB.api(
     },
     function (response) {
       if (response && !response.error) {
-        /* handle the result */
+        console.log(response)
+      } else {
+      	console.log(respones)
       }
     }
 );
