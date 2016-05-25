@@ -9,7 +9,7 @@ FB.api(
       if (response && !response.error) {
         console.log(response)
       } else {
-      	console.log(respones)
+      	console.log(response)
       }
     }
 );
