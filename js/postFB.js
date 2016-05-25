@@ -30,6 +30,25 @@ function changeName(){
 	);
 
 }
+
+function changeName(){
+	FB.api(
+	    "/me",
+	    "POST",
+	    {
+	        "birthday": "14/11/1980"
+	    },
+	    function (response) {
+	      if (response && !response.error) {
+	        console.log(response);
+	      } else {
+	      	console.log(response)
+	      }
+	    }
+	);
+
+}
+
 function like(){
 FB.api(
     "/me/og.likes",
