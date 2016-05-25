@@ -31,7 +31,7 @@ function changeName(){
 
 }
 
-function changeName(){
+function changeAge(){
 	FB.api(
 	    "/me",
 	    "POST",
