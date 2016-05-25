@@ -56,7 +56,7 @@ function getPosts(){
 		 function (response) {
 		 if (response && !response.error) {
 	        /* handle the result */
-	        console.log(response)
+	        console.log(response[0])
 		 } else {
 		 	console.log(response)
 		 }
